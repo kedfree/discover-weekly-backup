@@ -1,0 +1,2 @@
+#Ignoring .env due it containing api secret keys
+.env
