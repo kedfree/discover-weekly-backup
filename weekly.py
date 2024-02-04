@@ -11,7 +11,6 @@ from flask import Flask, request, url_for, session, redirect, render_template
 load_dotenv()
 CLIENT_ID = os.getenv("CLIENT_ID")
 CLIENT_SECRET = os.getenv("CLIENT_SECRET")
-print("HELLO",CLIENT_ID, CLIENT_SECRET)
 
 app = Flask(__name__)
 
