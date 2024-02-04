@@ -11,6 +11,7 @@ from flask import Flask, request, url_for, session, redirect, render_template
 load_dotenv()
 CLIENT_ID = os.getenv("CLIENT_ID")
 CLIENT_SECRET = os.getenv("CLIENT_SECRET")
+print("HELLO",CLIENT_ID, CLIENT_SECRET)
 
 app = Flask(__name__)
 
@@ -37,7 +38,7 @@ def save_discover_weekly():
     try:
         token_info = get_token()
     except:
-        print("User not loggin in")
+        print("User not logged in")
         return redirect('/')
     
     sp = spotipy.Spotify(auth=token_info['access_token'])
