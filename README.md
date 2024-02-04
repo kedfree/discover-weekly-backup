@@ -15,7 +15,7 @@ Only creates one "Saved Discover Weekly" to prevent clutter and doesn't add dupl
 *Make sure you have the Discover Weekly Playlist added to your library*
 
 ## Recreating on local system:
-- Can be recreated locally using flask
+- Can be run locally using flask
 - Must first create an **.env** file following example file
 - Client ID and Secret can be created @ https://developer.spotify.com/dashboard/
 - After creating **.env** file, proceed to running **weekly.py**
