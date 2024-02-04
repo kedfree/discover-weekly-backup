@@ -97,7 +97,7 @@ def create_spotify_oauth():
         client_id = CLIENT_ID,
         client_secret = CLIENT_SECRET,
         redirect_uri = url_for('redirect_page', _external = True),
-        scope = 'user-library-read playlist-modify-public playlist-modify-private'
+        scope = 'user-library-read playlist-modify-public playlist-modify-private playlist-read-collaborative playlist-read-private'
     )
 
 app.run(debug=True)
