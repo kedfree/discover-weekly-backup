@@ -1,4 +1,5 @@
 ## Site can be accessed [here](http://kfmoon.pythonanywhere.com/).
+Uses Python, Flask, HTML, CSS, WSGI
 
 ### Uses Spotify's API to save a user's Discover Weekly Playlist.
 Simple website allowing for a user to login into Spotify to allow permissions. After permissions have been accepted, the 
