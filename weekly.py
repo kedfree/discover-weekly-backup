@@ -1,7 +1,5 @@
 # weekly.py
-#
 # created by: Kedan F.
-# updated: February 3, 2023
 import spotipy
 import time
 import os
@@ -13,7 +11,6 @@ CLIENT_ID = os.getenv("CLIENT_ID")
 CLIENT_SECRET = os.getenv("CLIENT_SECRET")
 
 app = Flask(__name__)
-
 app.config['SESSION_COOKIE_NAME'] = 'Spotify Cookie'
 app.secret_key = 'dsfasSDFIU*@&#(WDKSAdsfasdkn' #example key
 TOKEN_INFO = 'token_info'
