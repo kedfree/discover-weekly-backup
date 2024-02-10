@@ -37,3 +37,12 @@ h1 {
 .button:hover {
     background-color: #45a049;
 }
+
+footer {
+    clear: both; 
+    margin-top: 1000px; 
+}
+
+footer p {
+    color: #666; 
+}
